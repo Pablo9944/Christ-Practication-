@@ -11,7 +11,8 @@ namespace Пример_2
         static void Main(string[] args)
         {
             Student student = new Student();
-            student.Move(5, Show);
+            ShowMessage show = Show;
+            student.Move(5, show);
         }
         static void Show(string message)
         {
@@ -19,6 +20,7 @@ namespace Пример_2
         }
     }
 }
+
 public delegate void ShowMessage(string message);
 
 public class Student
