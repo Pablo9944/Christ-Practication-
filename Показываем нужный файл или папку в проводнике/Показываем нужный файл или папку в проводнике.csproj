@@ -3,11 +3,10 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>net6.0-windows</TargetFramework>
-    <RootNamespace>_1</RootNamespace>
+    <RootNamespace>Показываем_нужный_файл_или_папку_в_проводнике</RootNamespace>
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Platforms>AnyCPU;x64;ARM64</Platforms>
   </PropertyGroup>
 
 </Project>
