@@ -42,6 +42,7 @@ namespace Лямбда_выражение_Byte__
             Console.WriteLine("public delegate bool DelegateTwoParametrs(int a,int b);");
             dtp.Invoke(1, 3);
 
+
            
         }
 
