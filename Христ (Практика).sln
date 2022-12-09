@@ -49,6 +49,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Обобщенный дел
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Обобщенный делегат", "Обобщенный делегат\Обобщенный делегат.csproj", "{77730B93-1CD1-4819-916B-9D023B569F58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Лямбда выражение Byte++", "Лямбда выражение Byte++\Лямбда выражение Byte++.csproj", "{7D4CB29A-9B10-4E84-941D-71A223B96C08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,18 @@ Global
 		{77730B93-1CD1-4819-916B-9D023B569F58}.Release|ARM64.Build.0 = Release|Any CPU
 		{77730B93-1CD1-4819-916B-9D023B569F58}.Release|x64.ActiveCfg = Release|Any CPU
 		{77730B93-1CD1-4819-916B-9D023B569F58}.Release|x64.Build.0 = Release|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Debug|x64.Build.0 = Debug|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Release|ARM64.Build.0 = Release|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Release|x64.ActiveCfg = Release|Any CPU
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -223,6 +237,7 @@ Global
 		{E5523674-D28D-469E-80FB-4AAAAAABBE51} = {5131C628-A3B4-4CAE-95F7-492F0BBC943A}
 		{97DC0519-A702-467A-A7F9-6A2B8DEDFA39} = {5131C628-A3B4-4CAE-95F7-492F0BBC943A}
 		{77730B93-1CD1-4819-916B-9D023B569F58} = {97DC0519-A702-467A-A7F9-6A2B8DEDFA39}
+		{7D4CB29A-9B10-4E84-941D-71A223B96C08} = {B1AA1847-FE19-4F90-897C-00BD20A524D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D2898098-967E-4251-9E9B-1E538B690ADA}
