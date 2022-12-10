@@ -8,14 +8,27 @@ namespace Универсальные_типы
 {
     internal class Program
     {
+        static readonly string TITLE = "Кукушка накуковала,что Диман ПЕТУХ";
         static void Main(string[] args)
         {
-            Student<string> mc = new Good<string>("Кукушка накуковала,что Диман ПЕТУХ");
-            mc.Print(mc.Value);
-            
+            Student<string> mc = new Good<string>("");
+            DelegateUniversal<string,string> du = MessagePrint;
+            du.Invoke(TITLE);
+
+
+
+
+
+        }
+        static string MessagePrint(string message)
+        {
+            Console.WriteLine(message);
+            return message;
         }
     }
 }
+
+public delegate R DelegateUniversal<T,R>(T s);   
 abstract class Student<T>
 {
     public T Value { get; set; }
@@ -23,7 +36,10 @@ abstract class Student<T>
     {
         this.Value = Value;
     }
-    public abstract void Print(T value);
+    public virtual void Print(T value)
+    {
+        Console.WriteLine("Print abstract");
+    }
    
 }
 class Good<T>: Student<T>
@@ -38,5 +54,4 @@ class Good<T>: Student<T>
         Value = value;
     }
 
-  
 }
