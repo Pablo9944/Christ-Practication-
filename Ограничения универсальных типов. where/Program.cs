@@ -10,6 +10,27 @@ namespace Ограничения_универсальных_типов.where
     {
         static void Main(string[] args)
         {
+            MyClass<string>mc = new MyClass<string> ();
+            MyStruct<int> ms = new MyStruct<int>();
+            Class<TestClass> c = new Class<TestClass>();
         }
     }
+}
+
+class MyClass<T> where T : class
+{
+    public T class_field { get; set; }
+}
+class MyStruct<T> where T:struct
+{
+    public T struct_field { get; set; }
+}
+
+class Class<T> where T: new()
+{
+    
+}
+class TestClass
+{
+
 }
